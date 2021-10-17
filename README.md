@@ -1,1 +1,1 @@
-# week04-project1-amazon
+# Week04 Project1: Amazon
