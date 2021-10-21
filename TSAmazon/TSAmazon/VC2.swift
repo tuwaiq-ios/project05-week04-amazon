@@ -35,7 +35,7 @@ class VC2: UIViewController {
         super.viewDidLoad()
         
         if pr != nil {
-            imageProdect.image = UIImage (named: pr!.image )
+            imageProdect.image = pr!.image 
             Descripition.text = pr!.description
         }
         

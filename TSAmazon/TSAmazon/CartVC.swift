@@ -25,15 +25,15 @@ class VC3: UIViewController,UITableViewDataSource,UITableViewDelegate {
         let pro = productInCart[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell2", for: indexPath) as! cell2
         
-        cell.imagecell2.image = UIImage(named: pro.image)
+        cell.imagecell2.image = pro.image
         cell.desciption2.text = pro.description
        return cell
 
     }
-    
+    //delete
     func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         
-        //delete
+        
         
         let deleteAction =
         UIContextualAction(style: .destructive,
