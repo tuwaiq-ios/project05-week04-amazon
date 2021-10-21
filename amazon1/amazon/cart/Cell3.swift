@@ -15,7 +15,7 @@ class Cell3 : UITableViewCell{
     
     func setup(Item : Item){
     namec.text = Item.name
-    imgc.image = UIImage (named: Item.logo)
+    imgc.image = Item.logo
     pricec.text = "\(Item.price1)"
     }
 }

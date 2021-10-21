@@ -15,7 +15,7 @@ class Cell1 : UICollectionViewCell {
     @IBOutlet weak var price1: UILabel!
     
     func setup(Item : Item){
-        logop.image = UIImage(named: Item.logo)
+        logop.image = Item.logo 
         lName.text = Item.name
         price1.text = "\(Item.price1)"
     }

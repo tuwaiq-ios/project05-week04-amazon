@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FA128015271FF9000093D977 /* Cell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA128014271FF9000093D977 /* Cell3.swift */; };
 		FA1718D1271D6A0700D71FB7 /* VC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1718D0271D6A0700D71FB7 /* VC3.swift */; };
+		FA3263902721402600C77727 /* managerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32638F2721402600C77727 /* managerVC.swift */; };
 		FA382B2F271CB6480032FAB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA382B2E271CB6480032FAB4 /* AppDelegate.swift */; };
 		FA382B31271CB6480032FAB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA382B30271CB6480032FAB4 /* SceneDelegate.swift */; };
 		FA382B36271CB6480032FAB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA382B34271CB6480032FAB4 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		FA128014271FF9000093D977 /* Cell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell3.swift; sourceTree = "<group>"; };
 		FA1718D0271D6A0700D71FB7 /* VC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC3.swift; sourceTree = "<group>"; };
+		FA32638F2721402600C77727 /* managerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = managerVC.swift; sourceTree = "<group>"; };
 		FA382B2B271CB6480032FAB4 /* amazon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amazon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA382B2E271CB6480032FAB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA382B30271CB6480032FAB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				FA382B46271CB7890032FAB4 /* VC2.swift */,
+				FA32638E27213C1500C77727 /* Manager */,
 			);
 			path = detail;
 			sourceTree = "<group>";
@@ -71,6 +74,14 @@
 				FA128014271FF9000093D977 /* Cell3.swift */,
 			);
 			path = cart;
+			sourceTree = "<group>";
+		};
+		FA32638E27213C1500C77727 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FA32638F2721402600C77727 /* managerVC.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		FA382B22271CB6480032FAB4 = {
@@ -97,8 +108,8 @@
 				FA2B891527203E77006161F5 /* Store */,
 				FA2B891627203E98006161F5 /* detail */,
 				FA382B2E271CB6480032FAB4 /* AppDelegate.swift */,
-				FA382B30271CB6480032FAB4 /* SceneDelegate.swift */,
 				FA382B34271CB6480032FAB4 /* Main.storyboard */,
+				FA382B30271CB6480032FAB4 /* SceneDelegate.swift */,
 				FA382B37271CB64E0032FAB4 /* Assets.xcassets */,
 				FA382B39271CB64E0032FAB4 /* LaunchScreen.storyboard */,
 				FA382B3C271CB64E0032FAB4 /* Info.plist */,
@@ -184,6 +195,7 @@
 				FA382B47271CB7890032FAB4 /* VC2.swift in Sources */,
 				FA382B49271CB7940032FAB4 /* Cell1.swift in Sources */,
 				FA382B31271CB6480032FAB4 /* SceneDelegate.swift in Sources */,
+				FA3263902721402600C77727 /* managerVC.swift in Sources */,
 				FA382B45271CB7780032FAB4 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

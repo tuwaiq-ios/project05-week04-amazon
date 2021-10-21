@@ -26,11 +26,10 @@ class VC1: UIViewController , UICollectionViewDelegate, UICollectionViewDataSour
         }
         picC.reloadData()
     }
-    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         searchBar.resignFirstResponder()
     }
     
-    var FromVC1 : Item!
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return searchba.count
     }
@@ -72,6 +71,13 @@ class VC1: UIViewController , UICollectionViewDelegate, UICollectionViewDataSour
 
     @IBOutlet weak var picC: UICollectionView!
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        DispatchQueue.main.async {
+            self.picC.reloadData()
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // picsflowlayot.itemSize = CGSize (width: 100, height: 100)
@@ -83,6 +89,4 @@ class VC1: UIViewController , UICollectionViewDelegate, UICollectionViewDataSour
         picC.dataSource = self
         // Do any additional setup after loading the view.
     }
-    
-    
 }
