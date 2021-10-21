@@ -15,6 +15,8 @@ class VC2: UIViewController {
     
     @IBOutlet weak var imageProdect: UIImageView!
     @IBOutlet weak var Descripition: UILabel!
+    
+    @IBOutlet weak var price2: UILabel!
     @IBOutlet weak var buttonCart: UIButton!
    
     @IBAction func buttonCartInsert(_ sender: Any) {
@@ -23,22 +25,18 @@ class VC2: UIViewController {
     }
     
     
-    
-    
     @IBAction func ButtonCart(_ sender: Any) {
       performSegue(withIdentifier: "show3", sender: sender)
-        
-        
+    
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         if pr != nil {
-            imageProdect.image = UIImage (named: pr!.image )
+            imageProdect.image =  pr!.image 
             Descripition.text = pr!.description
+            price2.text="\(pr!.price)$"
         }
-        
-        
     }
 }

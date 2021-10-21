@@ -19,6 +19,8 @@
 		569016A227203C7400C2E9D3 /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569016A127203C7400C2E9D3 /* CartCell.swift */; };
 		569016A427203C8100C2E9D3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569016A327203C8100C2E9D3 /* Model.swift */; };
 		569016A6272041A700C2E9D3 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569016A5272041A700C2E9D3 /* VC2.swift */; };
+		569016C827214A9600C2E9D3 /* managerAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569016C727214A9600C2E9D3 /* managerAdd.swift */; };
+		569016CA2721A49200C2E9D3 /* Edit Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569016C92721A49200C2E9D3 /* Edit Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		569016A127203C7400C2E9D3 /* CartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
 		569016A327203C8100C2E9D3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		569016A5272041A700C2E9D3 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		569016C727214A9600C2E9D3 /* managerAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = managerAdd.swift; sourceTree = "<group>"; };
+		569016C92721A49200C2E9D3 /* Edit Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Edit Product.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,19 +74,37 @@
 			children = (
 				56901687272000E200C2E9D3 /* AppDelegate.swift */,
 				56901689272000E200C2E9D3 /* SceneDelegate.swift */,
+				569016CE2721FE1600C2E9D3 /* customer */,
+				569016CD2721FDFD00C2E9D3 /* manager */,
+				56901690272000E500C2E9D3 /* Assets.xcassets */,
+				5690168D272000E200C2E9D3 /* Main.storyboard */,
+				56901692272000E500C2E9D3 /* LaunchScreen.storyboard */,
+				56901695272000E500C2E9D3 /* Info.plist */,
+			);
+			path = saraSaudAmazonApp4;
+			sourceTree = "<group>";
+		};
+		569016CD2721FDFD00C2E9D3 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				5690168B272000E200C2E9D3 /* ViewController.swift */,
+				569016C92721A49200C2E9D3 /* Edit Product.swift */,
+				569016A327203C8100C2E9D3 /* Model.swift */,
+				569016C727214A9600C2E9D3 /* managerAdd.swift */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		569016CE2721FE1600C2E9D3 /* customer */ = {
+			isa = PBXGroup;
+			children = (
 				5690169B272021D300C2E9D3 /* StoreVC.swift */,
 				5690169D27203C4F00C2E9D3 /* ProductCell.swift */,
 				5690169F27203C6400C2E9D3 /* CartVC.swift */,
 				569016A127203C7400C2E9D3 /* CartCell.swift */,
 				569016A5272041A700C2E9D3 /* VC2.swift */,
-				569016A327203C8100C2E9D3 /* Model.swift */,
-				5690168B272000E200C2E9D3 /* ViewController.swift */,
-				5690168D272000E200C2E9D3 /* Main.storyboard */,
-				56901690272000E500C2E9D3 /* Assets.xcassets */,
-				56901692272000E500C2E9D3 /* LaunchScreen.storyboard */,
-				56901695272000E500C2E9D3 /* Info.plist */,
 			);
-			path = saraSaudAmazonApp4;
+			path = customer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,10 +181,12 @@
 				569016A6272041A700C2E9D3 /* VC2.swift in Sources */,
 				5690168C272000E200C2E9D3 /* ViewController.swift in Sources */,
 				569016A227203C7400C2E9D3 /* CartCell.swift in Sources */,
+				569016C827214A9600C2E9D3 /* managerAdd.swift in Sources */,
 				56901688272000E200C2E9D3 /* AppDelegate.swift in Sources */,
 				569016A027203C6400C2E9D3 /* CartVC.swift in Sources */,
 				5690169E27203C4F00C2E9D3 /* ProductCell.swift in Sources */,
 				5690169C272021D300C2E9D3 /* StoreVC.swift in Sources */,
+				569016CA2721A49200C2E9D3 /* Edit Product.swift in Sources */,
 				5690168A272000E200C2E9D3 /* SceneDelegate.swift in Sources */,
 				569016A427203C8100C2E9D3 /* Model.swift in Sources */,
 			);

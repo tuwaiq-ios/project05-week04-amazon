@@ -14,5 +14,9 @@ class cell2: UITableViewCell {
  
     @IBOutlet weak var desciption2: UILabel!
     
+    @IBOutlet weak var priceCart: UILabel!
+    
+    @IBOutlet weak var namecart: UILabel!
+    
 }
 
