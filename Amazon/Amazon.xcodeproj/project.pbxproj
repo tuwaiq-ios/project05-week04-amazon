@@ -65,10 +65,19 @@
 			path = "Cart Page";
 			sourceTree = "<group>";
 		};
+		CC938C2727213D7000AF0DB6 /* Product Page */ = {
+			isa = PBXGroup;
+			children = (
+				CC1BD8DB2720B90D00F83006 /* ProductVC.swift */,
+			);
+			path = "Product Page";
+			sourceTree = "<group>";
+		};
 		CCDF91562720701A00B38E9B = {
 			isa = PBXGroup;
 			children = (
 				CCDF91612720701A00B38E9B /* Amazon */,
+				CCDF9176272071C400B38E9B /* Model.swift */,
 				CCDF91602720701A00B38E9B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +101,7 @@
 				CCDF91702720701B00B38E9B /* Info.plist */,
 				CC1BD8D92720ADCC00F83006 /* Store Page */,
 				CC1BD8DA2720ADEE00F83006 /* Cart Page */,
-				CCDF9176272071C400B38E9B /* Model.swift */,
-				CC1BD8DB2720B90D00F83006 /* ProductVC.swift */,
+				CC938C2727213D7000AF0DB6 /* Product Page */,
 			);
 			path = Amazon;
 			sourceTree = "<group>";

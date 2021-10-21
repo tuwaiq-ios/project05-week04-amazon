@@ -48,5 +48,3 @@ class CartVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     return UISwipeActionsConfiguration(actions: [deleteAction])
   }
 }
-
-

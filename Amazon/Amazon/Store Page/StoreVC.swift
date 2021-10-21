@@ -12,6 +12,7 @@ class StoreVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
   @IBOutlet weak var productsVC: UICollectionView!
   @IBOutlet weak var searchBar: UISearchBar!
   
+  
   var searchProducts: Array<Product> = allProducts
   
   override func viewDidLoad() {
@@ -28,12 +29,12 @@ class StoreVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
       searchProducts = allProducts
     }else{
       searchProducts = allProducts.filter({oneProducts in
-        
+
         return oneProducts.name.starts(with: searchText)
       })
     }
+    productsVC.reloadData()
   }
-  
   
   func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     return searchProducts.count
@@ -48,6 +49,19 @@ class StoreVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
     
     return productCell
   }
+  
+  func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    let product = searchProducts[indexPath.row]
+    performSegue(withIdentifier: "show", sender: product)
+  }
+  
+  override func prepare(for Segue: UIStoryboardSegue, sender: Any?){
+    super.prepare(for: Segue, sender: sender)
+    let productVC = Segue.destination as! ProductVC
+    
+    productVC.selectedProduct = sender as? Product
+  }
+  
   func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
     
     let screenWidth = view.bounds.size.width - 25//بسبب اني نقصت من الكوليكشين فيو ١٠ من اليمين واليسيار

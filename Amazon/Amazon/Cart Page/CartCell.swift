@@ -23,5 +23,3 @@ class CartCell:UITableViewCell {
     priceLabel.text = product.price
   }
 }
-
-
