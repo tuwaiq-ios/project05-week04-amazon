@@ -9,7 +9,7 @@ import UIKit
 
 class VC1: UIViewController , UICollectionViewDelegate, UICollectionViewDataSource , UICollectionViewDelegateFlowLayout, UISearchBarDelegate {
     
-    
+   
     var searchba: Array<Item> = List
     
     @IBOutlet weak var saerchbar: UISearchBar!
@@ -73,10 +73,12 @@ class VC1: UIViewController , UICollectionViewDelegate, UICollectionViewDataSour
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        DispatchQueue.main.async {
-            self.picC.reloadData()
-        }
+        
+        searchba = List
+        picC.reloadData()
+        
     }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -89,4 +91,5 @@ class VC1: UIViewController , UICollectionViewDelegate, UICollectionViewDataSour
         picC.dataSource = self
         // Do any additional setup after loading the view.
     }
+   
 }
