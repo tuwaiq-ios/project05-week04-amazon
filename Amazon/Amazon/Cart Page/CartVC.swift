@@ -11,13 +11,6 @@ import UIKit
 class CartVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
   @IBOutlet weak var cartTV: UITableView!
   
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    
-    cartTV.delegate = self
-    cartTV.dataSource = self
-  }
-  
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
     cartTV.reloadData()
@@ -35,16 +28,23 @@ class CartVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     return cartCell
   }
+  
   func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
     
     let deleteAction = UIContextualAction(
       style: .destructive,
-      title: "Delete"
-    ) {_, _, _ in
-      cart.remove(at: indexPath.row)
-      
-      tableView.deleteRows(at: [indexPath], with: .automatic)
-    }
+      title: "Delete") {_, _, _ in
+        cart.remove(at: indexPath.row)
+        
+        tableView.deleteRows(at: [indexPath], with: .automatic)
+      }
     return UISwipeActionsConfiguration(actions: [deleteAction])
+  }
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    cartTV.delegate = self
+    cartTV.dataSource = self
   }
 }

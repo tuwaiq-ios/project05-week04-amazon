@@ -12,28 +12,23 @@ class StoreVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
   @IBOutlet weak var productsVC: UICollectionView!
   @IBOutlet weak var searchBar: UISearchBar!
   
-  
   var searchProducts: Array<Product> = allProducts
   
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    
-    productsVC.delegate = self
-    productsVC.dataSource = self
-    searchBar.delegate = self
-  }
-  
-  func searchBar(_searchBar: UISearchBar, textDidChange searchText: String){
-    
+  func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String){
+    print(searchText)
     if searchText.isEmpty{
       searchProducts = allProducts
     }else{
       searchProducts = allProducts.filter({oneProducts in
-
         return oneProducts.name.starts(with: searchText)
       })
     }
     productsVC.reloadData()
+  }
+  
+  func searchBarShouldEndEditing(_ searchBar: UISearchBar) -> Bool {
+    searchBar.resignFirstResponder()
+    return true
   }
   
   func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -74,7 +69,14 @@ class StoreVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
   }
   
   func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-    return 0
+    return 5
+  }
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    productsVC.delegate = self
+    productsVC.dataSource = self
+    searchBar.delegate = self
   }
 }
-

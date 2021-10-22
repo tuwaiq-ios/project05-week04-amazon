@@ -17,7 +17,7 @@ class CartCell:UITableViewCell {
   
   func setup(product: Product) {
     
-    cartImage.image = UIImage(named: product.image)
+    cartImage.image = product.image
     nameLabel.text = product.name
     summaryLabel.text = product.summary
     priceLabel.text = product.price

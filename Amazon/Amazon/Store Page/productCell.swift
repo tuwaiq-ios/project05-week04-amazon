@@ -17,7 +17,7 @@ class ProductCell: UICollectionViewCell {
   var cellProduct: Product!
   
   func setup(product: Product) {
-    productImage.image = UIImage(named: product.image)
+    productImage.image = product.image
     productName.text = product.name
     productPrice.text = product.price
     
@@ -27,6 +27,5 @@ class ProductCell: UICollectionViewCell {
   @IBAction func addToCartPressed(_ sender: Any) {
     
     cart.append(cellProduct)
-    
   }
 }

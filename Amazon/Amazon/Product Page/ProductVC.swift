@@ -18,6 +18,7 @@ class ProductVC: UIViewController {
   @IBOutlet weak var productSummary: UILabel!
   
   @IBAction func addToCartPressed(_ sender: Any) {
+    
     cart.append(selectedProduct!)
   }
   
@@ -25,7 +26,7 @@ class ProductVC: UIViewController {
     super.viewDidLoad()
     
     if selectedProduct != nil {
-      productImage.image = UIImage(named: selectedProduct!.image)
+      productImage.image = selectedProduct?.image
       productName.text = selectedProduct?.name
       productPrice.text = selectedProduct?.price
       productSummary.text = selectedProduct?.summary
