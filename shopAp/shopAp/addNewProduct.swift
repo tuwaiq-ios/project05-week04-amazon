@@ -29,6 +29,7 @@ class addNewProduct:
     }
 
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        
         let image = (info[.editedImage] ?? info[.originalImage]) as? UIImage
 
         imageAdd.image = image
@@ -58,7 +59,9 @@ dismiss(animated: true)
         }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
       super.prepare(for: segue, sender: sender)
+        
       let name1 = segue.destination as! productVC
       name1.J = sender as? Product
     }
@@ -67,31 +70,4 @@ dismiss(animated: true)
 
 
     }
-
-
-  
-  
- 
-  
- 
-
-//  @IBAction func addProductPhoto(_ sender: Any) {
-//    allProduct.append(Product(
-//    name: nameAdd.text!,
-//    image: imageAdd.image,
-//    summary: descriptionAdd.text!,
-//    price: Double( priceAdd.text ?? " " ) ?? 0 ))
-////  }
-//  @IBAction func ButtonCart(_ sender: Any) {
-//    let picker = UIImagePickerController()
-//    picker.allowsEditing = true
-//    picker.delegate = self
-//    present(picker,animated: true)
-//  }
-//  func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-//    let image = (info[.editedImage] ?? info[.originalImage]) as? UIImage
-//    imageAdd.image = image
-//dismiss(animated: true)
-//}
-  
-  
+   

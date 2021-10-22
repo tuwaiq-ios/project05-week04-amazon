@@ -18,11 +18,13 @@ class updatePage: UIViewController, UIImagePickerControllerDelegate , UINavigati
     @IBOutlet weak var priceu: UILabel!
     @IBOutlet weak var summaryu: UILabel!
     
-    @IBAction func changeImage(_ sender: Any) {
+    @IBAction func Changeimage(_ sender: Any) {
+        
         let picker = UIImagePickerController()
          picker.allowsEditing = true
          picker.delegate = self
          present(picker,animated: true)
+        
     }
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         let image = (info[.editedImage] ?? info[.originalImage]) as? UIImage
@@ -31,9 +33,12 @@ class updatePage: UIViewController, UIImagePickerControllerDelegate , UINavigati
 dismiss(animated: true)
 }
     
-    
-    
- //
+    @IBAction func changeImage(_ sender: Any) {
+        let picker = UIImagePickerController()
+         picker.allowsEditing = true
+         picker.delegate = self
+         present(picker,animated: true)
+    }
     
     @IBOutlet weak var nameT: UITextField!
     @IBOutlet weak var priceT: UITextField!
@@ -69,6 +74,8 @@ dismiss(animated: true)
         
        
     }
+    
+  
     
    
     
