@@ -1,0 +1,50 @@
+//
+//  DeleteCell.swift
+//  Amazon
+//
+//  Created by sara al zhrani on 16/03/1443 AH.
+//
+
+import UIKit
+
+
+class deleteProduct: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, DataCollictionProtocol{
+  func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    return producetslist.count
+  }
+  func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    let productCell = collectionView.dequeueReusableCell(withReuseIdentifier: "deleteCell", for: indexPath) as! deleteCell
+    productCell.indexPath = indexPath
+    productCell.delegate = self
+    let product = producetslist[indexPath.item]
+      
+    productCell.setup(product: product)
+      
+    return productCell
+  }
+  @IBOutlet weak var deleteCV: UICollectionView!
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    deleteCV.delegate = self
+    deleteCV.dataSource = self
+    deleteCV.reloadData()
+  }
+  override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(animated)
+    deleteCV.reloadData()
+  }
+  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+    let screenWidth = view.bounds.size.width
+   return CGSize(width: screenWidth/2, height: 321)
+  }
+  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+    return 0
+  }
+  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+    return 0
+  }
+    func deleteData(indx: Int){
+   let deletProduct = producetslist.remove(at: indx)
+      deleteCV.reloadData()
+      }
+}

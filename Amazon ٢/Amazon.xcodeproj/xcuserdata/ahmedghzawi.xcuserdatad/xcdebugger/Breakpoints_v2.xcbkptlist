@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "10EE70DE-564A-43F1-AAC3-C3CF84FC2D21"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A81DB946-591C-4A09-9FFE-1DFE9C2E630F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Amazon/viewcollection/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FFA154FD-B150-483F-889B-E976707E6930"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Amazon/viewcollection/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "cellSegueFromCell(prodIndex:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EAC9FBDB-5A43-4D62-A6C5-0F9F462D2F8D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Amazon/viewcollection/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3EBCD7DF-FDFB-45B5-A43A-BFEF766C86B0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Amazon/viewcollection/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6BDBFB63-D91A-45DE-850F-A46E76AFF3C9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Amazon/viewcollection/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "cellSegueFromCell(prodIndex:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE2C238C-A82C-4253-A699-2B43C2B3F55C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Amazon/viewcollection/CellCollection.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "CellCollection"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "CE2C238C-A82C-4253-A699-2B43C2B3F55C - 993343c7c5313ee9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Amazon.CellCollection.indexrpath.getter : Swift.Optional&lt;Foundation.IndexPath&gt;"
+                  moduleName = "Amazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedghzawi/Downloads/Amazon/Amazon/viewcollection/CellCollection.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "CE2C238C-A82C-4253-A699-2B43C2B3F55C - c90406645922ef5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Amazon.CellCollection.indexrpath.setter : Swift.Optional&lt;Foundation.IndexPath&gt;"
+                  moduleName = "Amazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedghzawi/Downloads/Amazon/Amazon/viewcollection/CellCollection.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "161">
+               </Location>
+               <Location
+                  uuid = "CE2C238C-A82C-4253-A699-2B43C2B3F55C - a7c8e80742c56792"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Amazon.CellCollection.indexrpath.modify : Swift.Optional&lt;Foundation.IndexPath&gt;"
+                  moduleName = "Amazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedghzawi/Downloads/Amazon/Amazon/viewcollection/CellCollection.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "CE2C238C-A82C-4253-A699-2B43C2B3F55C - 6752e015eecd8105"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Amazon.CellCollection.indexrpath.modify : Swift.Optional&lt;Foundation.IndexPath&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Amazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedghzawi/Downloads/Amazon/Amazon/viewcollection/CellCollection.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "CE2C238C-A82C-4253-A699-2B43C2B3F55C - 3c37ef1bd6a7432"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Amazon.CellCollection.init(frame: __C.CGRect) -&gt; Amazon.CellCollection"
+                  moduleName = "Amazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedghzawi/Downloads/Amazon/Amazon/viewcollection/CellCollection.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "430">
+               </Location>
+               <Location
+                  uuid = "CE2C238C-A82C-4253-A699-2B43C2B3F55C - 7265227ab06ba7b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Amazon.CellCollection.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Amazon.CellCollection&gt;"
+                  moduleName = "Amazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedghzawi/Downloads/Amazon/Amazon/viewcollection/CellCollection.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "379">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1C8BA879-E10A-4EE5-B681-95DCF26F98DB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Amazon/AsMANEGAR/Updated.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CA5A7DF8-F80A-43F6-88B2-09E08652F353"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Amazon/AsMANEGAR/Updated.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "Updated"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "CA5A7DF8-F80A-43F6-88B2-09E08652F353 - 6a6cfaa99d2ba7df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Amazon.Updated.indexpath.getter : Swift.Optional&lt;Foundation.IndexPath&gt;"
+                  moduleName = "Amazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedghzawi/Downloads/Amazon/Amazon/AsMANEGAR/Updated.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "CA5A7DF8-F80A-43F6-88B2-09E08652F353 - 1ecca218e0d90cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Amazon.Updated.indexpath.setter : Swift.Optional&lt;Foundation.IndexPath&gt;"
+                  moduleName = "Amazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedghzawi/Downloads/Amazon/Amazon/AsMANEGAR/Updated.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "161">
+               </Location>
+               <Location
+                  uuid = "CA5A7DF8-F80A-43F6-88B2-09E08652F353 - 34f03bc58d741f48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Amazon.Updated.indexpath.modify : Swift.Optional&lt;Foundation.IndexPath&gt;"
+                  moduleName = "Amazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedghzawi/Downloads/Amazon/Amazon/AsMANEGAR/Updated.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "CA5A7DF8-F80A-43F6-88B2-09E08652F353 - 559a5b12d9cc2c64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Amazon.Updated.indexpath.modify : Swift.Optional&lt;Foundation.IndexPath&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Amazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedghzawi/Downloads/Amazon/Amazon/AsMANEGAR/Updated.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "17">
+               </Location>
+               <Location
+                  uuid = "CA5A7DF8-F80A-43F6-88B2-09E08652F353 - 86c5b969d22fd65a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Amazon.Updated.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Amazon.Updated"
+                  moduleName = "Amazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedghzawi/Downloads/Amazon/Amazon/AsMANEGAR/Updated.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "333">
+               </Location>
+               <Location
+                  uuid = "CA5A7DF8-F80A-43F6-88B2-09E08652F353 - 76653803ad6039af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Amazon.Updated.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Amazon.Updated&gt;"
+                  moduleName = "Amazon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedghzawi/Downloads/Amazon/Amazon/AsMANEGAR/Updated.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "290">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11528CAE-3B8D-40E9-9CD0-30BB3B551D49"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Amazon/viewcollection/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "072408C3-17F6-4944-9F47-76DF9456C6FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Amazon/AsMANEGAR/Updated.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
