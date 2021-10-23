@@ -24,6 +24,16 @@
 		1EFF1FAF271EC02A0068598D /* ReceiptCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFF1FAE271EC02A0068598D /* ReceiptCell.swift */; };
 		1EFF1FB2271EF9E30068598D /* RecCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFF1FB1271EF9E20068598D /* RecCollectionViewController.swift */; };
 		1EFF1FB4271F09B90068598D /* RecCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFF1FB3271F09B80068598D /* RecCell.swift */; };
+		1EFF1FE3272000AA0068598D /* customer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF1FE2272000AA0068598D /* customer.storyboard */; };
+		1EFF1FE8272004380068598D /* Manager.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFF1FE7272004380068598D /* Manager.storyboard */; };
+		1EFF1FEA272023030068598D /* ManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFF1FE9272023030068598D /* ManagerViewController.swift */; };
+		1EFF1FEC27203EC80068598D /* ManagerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFF1FEB27203EC80068598D /* ManagerCell.swift */; };
+		1EFF1FEE27213D400068598D /* NewProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFF1FED27213D3F0068598D /* NewProductViewController.swift */; };
+		1EFF1FF027215F1B0068598D /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFF1FEF27215F1A0068598D /* UpdateViewController.swift */; };
+		1EFF1FF22722DE5C0068598D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFF1FF12722DE5B0068598D /* DetailsViewController.swift */; };
+		1EFF1FF42722E22B0068598D /* DetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFF1FF32722E22B0068598D /* DetailsCell.swift */; };
+		1EFF1FF6272337510068598D /* PurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFF1FF5272337500068598D /* PurchaseViewController.swift */; };
+		1EFF1FF82723380B0068598D /* PurchaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFF1FF72723380B0068598D /* PurchaseCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +56,16 @@
 		1EFF1FAE271EC02A0068598D /* ReceiptCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptCell.swift; sourceTree = "<group>"; };
 		1EFF1FB1271EF9E20068598D /* RecCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecCollectionViewController.swift; sourceTree = "<group>"; };
 		1EFF1FB3271F09B80068598D /* RecCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecCell.swift; sourceTree = "<group>"; };
+		1EFF1FE2272000AA0068598D /* customer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = customer.storyboard; sourceTree = "<group>"; };
+		1EFF1FE7272004380068598D /* Manager.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Manager.storyboard; sourceTree = "<group>"; };
+		1EFF1FE9272023030068598D /* ManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerViewController.swift; sourceTree = "<group>"; };
+		1EFF1FEB27203EC80068598D /* ManagerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerCell.swift; sourceTree = "<group>"; };
+		1EFF1FED27213D3F0068598D /* NewProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProductViewController.swift; sourceTree = "<group>"; };
+		1EFF1FEF27215F1A0068598D /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+		1EFF1FF12722DE5B0068598D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		1EFF1FF32722E22B0068598D /* DetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCell.swift; sourceTree = "<group>"; };
+		1EFF1FF5272337500068598D /* PurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseViewController.swift; sourceTree = "<group>"; };
+		1EFF1FF72723380B0068598D /* PurchaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,13 +98,14 @@
 		1EFF1F60271C8A460068598D /* Project 4 Shopping App */ = {
 			isa = PBXGroup;
 			children = (
-				1EFF1F77271C8A7F0068598D /* Model */,
-				1EFF1F76271C8A750068598D /* View */,
-				1EFF1F75271C8A5F0068598D /* Controller */,
+				1EFF1FE4272003AF0068598D /* Manager */,
+				1EFF1FE12720006B0068598D /* custmer */,
 				1EFF1F67271C8A460068598D /* Main.storyboard */,
 				1EFF1F6A271C8A4F0068598D /* Assets.xcassets */,
 				1EFF1F6C271C8A4F0068598D /* LaunchScreen.storyboard */,
 				1EFF1F6F271C8A4F0068598D /* Info.plist */,
+				1EFF1F77271C8A7F0068598D /* Model */,
+				1EFF1F76271C8A750068598D /* View */,
 			);
 			path = "Project 4 Shopping App";
 			sourceTree = "<group>";
@@ -164,6 +185,39 @@
 			path = Recommendations;
 			sourceTree = "<group>";
 		};
+		1EFF1FE12720006B0068598D /* custmer */ = {
+			isa = PBXGroup;
+			children = (
+				1EFF1F75271C8A5F0068598D /* Controller */,
+				1EFF1FE2272000AA0068598D /* customer.storyboard */,
+			);
+			path = custmer;
+			sourceTree = "<group>";
+		};
+		1EFF1FE4272003AF0068598D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				1EFF1FE5272003E90068598D /* Controller */,
+				1EFF1FE7272004380068598D /* Manager.storyboard */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1EFF1FE5272003E90068598D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1EFF1FE9272023030068598D /* ManagerViewController.swift */,
+				1EFF1FEB27203EC80068598D /* ManagerCell.swift */,
+				1EFF1FED27213D3F0068598D /* NewProductViewController.swift */,
+				1EFF1FEF27215F1A0068598D /* UpdateViewController.swift */,
+				1EFF1FF12722DE5B0068598D /* DetailsViewController.swift */,
+				1EFF1FF32722E22B0068598D /* DetailsCell.swift */,
+				1EFF1FF5272337500068598D /* PurchaseViewController.swift */,
+				1EFF1FF72723380B0068598D /* PurchaseCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -222,9 +276,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EFF1FE3272000AA0068598D /* customer.storyboard in Resources */,
 				1EFF1F6E271C8A4F0068598D /* LaunchScreen.storyboard in Resources */,
 				1EFF1F6B271C8A4F0068598D /* Assets.xcassets in Resources */,
 				1EFF1F69271C8A460068598D /* Main.storyboard in Resources */,
+				1EFF1FE8272004380068598D /* Manager.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +293,7 @@
 			files = (
 				1EFF1F7B271C9D6A0068598D /* ProductsCollectionViewController.swift in Sources */,
 				1EFF1FA5271DE2DB0068598D /* CartTableViewController.swift in Sources */,
+				1EFF1FF42722E22B0068598D /* DetailsCell.swift in Sources */,
 				1EFF1FB4271F09B90068598D /* RecCell.swift in Sources */,
 				1EFF1FAA271EA1960068598D /* AddressViewCotroller.swift in Sources */,
 				1EFF1F62271C8A460068598D /* AppDelegate.swift in Sources */,
@@ -246,9 +303,16 @@
 				1EFF1F80271D67150068598D /* ProductInfo.swift in Sources */,
 				1EFF1F7D271D50EE0068598D /* ProductCollectionViewCell.swift in Sources */,
 				1EFF1FAF271EC02A0068598D /* ReceiptCell.swift in Sources */,
+				1EFF1FF027215F1B0068598D /* UpdateViewController.swift in Sources */,
 				1EFF1FAD271EBDD90068598D /* ReceiptViewController.swift in Sources */,
+				1EFF1FF22722DE5C0068598D /* DetailsViewController.swift in Sources */,
+				1EFF1FEE27213D400068598D /* NewProductViewController.swift in Sources */,
 				1EFF1FA2271DC7490068598D /* SectionHeader.swift in Sources */,
+				1EFF1FF6272337510068598D /* PurchaseViewController.swift in Sources */,
+				1EFF1FF82723380B0068598D /* PurchaseCell.swift in Sources */,
 				1EFF1F79271C91EF0068598D /* Data.swift in Sources */,
+				1EFF1FEC27203EC80068598D /* ManagerCell.swift in Sources */,
+				1EFF1FEA272023030068598D /* ManagerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

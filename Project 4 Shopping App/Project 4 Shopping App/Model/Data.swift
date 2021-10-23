@@ -10,12 +10,12 @@ import UIKit
 class Product {
     var prodauctName: String
     var productSummary: String
-    var productPic: String
+    var productPic: UIImage!
     var productSpecs: String
     var prodauctPrice: Double
     var productQuantity: Int
     
-    init(prodauctName:String , productPic: String, prodauctPrice: Double, productSummary: String ,productQuantity: Int, productSpecs: String){
+    init(prodauctName:String , productPic: UIImage!, prodauctPrice: Double, productSummary: String ,productQuantity: Int, productSpecs: String){
         self.prodauctName = prodauctName
         self.productSummary = productSummary
         self.productPic = productPic
@@ -92,52 +92,52 @@ class Category{
 //]
 var products = [
     Product(prodauctName: "Gray T-shirt",
-                       productPic: "c1",
+                       productPic: UIImage(named: "c1"),
                        prodauctPrice: 37.50,
                        productSummary: "cotton",
                        productQuantity: 7,
                        productSpecs: "Colthing"),
                Product(prodauctName: "Green T-shirt",
-                       productPic: "c2",
+                       productPic: UIImage(named: "c2"),
                        prodauctPrice: 40.0,
                        productSummary: "cotton",
                        productQuantity: 10,
                        productSpecs: "Clothing"),
                Product(prodauctName: "Burgundy T-Shirt",
-                       productPic: "c4",
+                       productPic: UIImage(named: "c4"),
                        prodauctPrice: 33.0,
                        productSummary: "cotton",
                        productQuantity: 2,
                        productSpecs: "Colthing"),
                 Product(prodauctName: "Gray Shoes",
-                        productPic: "s1",
+                        productPic: UIImage(named: "s1"),
                         prodauctPrice: 45.0,
                         productSummary: "So Comfortable",
                         productQuantity: 4,
                         productSpecs: "Shoes"),
                 Product(prodauctName: "Pink Shoes",
-                        productPic: "s2",
+                        productPic: UIImage(named: "s2"),
                         prodauctPrice: 50.0,
                         productSummary: "Waterproof",
-                        productQuantity: 2,
+                        productQuantity: 1,
                         productSpecs: "Shoes"),
                 Product(prodauctName: "Pearl Earrings ",
-                        productPic: "j1",
+                        productPic: UIImage(named: "j1"),
                         prodauctPrice: 70.0,
                         productSummary: "Silver pearl earrings ",
                         productQuantity: 8,
                         productSpecs: "Jewelry"),
                 Product(prodauctName: "Silver Ring",
-                        productPic: "j2",
+                        productPic: UIImage(named: "j2"),
                         prodauctPrice: 60.0,
                         productSummary: " Inlaid Silver Ring",
                         productQuantity: 17,
                         productSpecs: "Jewelry"),
                 Product(prodauctName: "Gold necklace",
-                        productPic: "j3",
+                        productPic: UIImage(named:"j3"),
                         prodauctPrice: 80.0,
                         productSummary: "gold necklace with crystal",
-                        productQuantity: 3,
+                        productQuantity: 1,
                         productSpecs: "Jewelry")
     ]
 
@@ -149,3 +149,16 @@ struct Cart {
 }
 
 var cartArray = [Cart]()
+
+struct OutOfStock {
+    let image: UIImage!
+    let name: String
+}
+
+var outStock = [OutOfStock]()
+
+var mostSoldOut: [String : Int] = [:]
+
+var revenu = [Double]()
+
+var profit = [Double]()

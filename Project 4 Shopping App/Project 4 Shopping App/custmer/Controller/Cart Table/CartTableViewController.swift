@@ -8,7 +8,7 @@
 import UIKit
 
 class CartTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
-    
+
     @IBOutlet weak var checkoutButton: UIButton!
     @IBOutlet weak var cartTableView: UITableView!
     
@@ -51,8 +51,9 @@ class CartTableViewController: UIViewController, UITableViewDelegate, UITableVie
         cartTableView.reloadData()
     }
     
+   
     
     @IBAction func checkOutPressed(_ sender: Any) {
-
+    
     }
 }

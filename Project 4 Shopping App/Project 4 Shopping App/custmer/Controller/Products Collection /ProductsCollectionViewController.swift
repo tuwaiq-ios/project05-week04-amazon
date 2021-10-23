@@ -13,8 +13,6 @@ class ProductsCollectionViewController: UIViewController, UICollectionViewDelega
     var searchedProductes = [Product]()
     var searchController = UISearchController(searchResultsController: nil)
     
-    var index : Int?
-    var indexPath: IndexPath!
     @IBOutlet weak var productCollectionView: UICollectionView!
     
     @IBOutlet weak var collectionFlowLayout: UICollectionViewFlowLayout!
@@ -54,12 +52,12 @@ class ProductsCollectionViewController: UIViewController, UICollectionViewDelega
         
         let cell = productCollectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! productCollectionViewCell
         if search{
-            cell.procductImage.image = UIImage(named: searchedProductes[indexPath.row].productPic)
+            cell.procductImage.image = searchedProductes[indexPath.row].productPic
             cell.productName.text = searchedProductes[indexPath.row].prodauctName
             cell.productPriceLabel.text = "SA\(searchedProductes[indexPath.row].prodauctPrice)"
         }else{
             cell.productName.text = products[indexPath.row].prodauctName
-            cell.procductImage.image = UIImage(named: products[indexPath.row].productPic)
+            cell.procductImage.image =  products[indexPath.row].productPic
             cell.productPriceLabel.text = "SA\(products[indexPath.row].prodauctPrice)"
         }
         
@@ -84,7 +82,7 @@ class ProductsCollectionViewController: UIViewController, UICollectionViewDelega
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier != "product_info"{
-            return
+         return
         }
         let productInfo = segue.destination as! ProductInfo
         productInfo.product = sender as? Product
