@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.swift
+//  AppDelegate.swift
 //  shopAp
 //
 //  Created by Amal on 14/03/1443 AH.

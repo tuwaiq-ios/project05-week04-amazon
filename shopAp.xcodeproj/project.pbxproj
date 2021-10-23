@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C97D7C652723083400264A87 /* EditProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97D7C642723083400264A87 /* EditProduct.swift */; };
 		FA001BF02721400700779FF7 /* addNewProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA001BEF2721400700779FF7 /* addNewProduct.swift */; };
+		FA271E2E2722C7E700E964CF /* EditProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA271E2D2722C7E700E964CF /* EditProduct.swift */; };
+		FA271E322722E5F100E964CF /* updateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA271E312722E5F100E964CF /* updateCell.swift */; };
+		FA271E342722EBCA00E964CF /* updatePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA271E332722EBCA00E964CF /* updatePage.swift */; };
 		FA630B7827206C5100744115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA630B7727206C5100744115 /* AppDelegate.swift */; };
 		FA630B7A27206C5100744115 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA630B7927206C5100744115 /* SceneDelegate.swift */; };
 		FA630B7C27206C5100744115 /* storeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA630B7B27206C5100744115 /* storeVC.swift */; };
@@ -21,11 +23,15 @@
 		FA630B92272081D400744115 /* cartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA630B91272081D400744115 /* cartCell.swift */; };
 		FA630B982720930E00744115 /* productVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA630B972720930E00744115 /* productVC.swift */; };
 		FA630B9A2720A1F700744115 /* purchaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA630B992720A1F700744115 /* purchaseVC.swift */; };
+		FAE2E5632721E43C005D83CA /* deleteProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE2E5622721E43C005D83CA /* deleteProduct.swift */; };
+		FAE2E5652721E632005D83CA /* deleteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE2E5642721E632005D83CA /* deleteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C97D7C642723083400264A87 /* EditProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProduct.swift; sourceTree = "<group>"; };
 		FA001BEF2721400700779FF7 /* addNewProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNewProduct.swift; sourceTree = "<group>"; };
+		FA271E2D2722C7E700E964CF /* EditProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProduct.swift; sourceTree = "<group>"; };
+		FA271E312722E5F100E964CF /* updateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateCell.swift; sourceTree = "<group>"; };
+		FA271E332722EBCA00E964CF /* updatePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updatePage.swift; sourceTree = "<group>"; };
 		FA630B7427206C5100744115 /* shopAp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shopAp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA630B7727206C5100744115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA630B7927206C5100744115 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +46,8 @@
 		FA630B91272081D400744115 /* cartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartCell.swift; sourceTree = "<group>"; };
 		FA630B972720930E00744115 /* productVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productVC.swift; sourceTree = "<group>"; };
 		FA630B992720A1F700744115 /* purchaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = purchaseVC.swift; sourceTree = "<group>"; };
+		FAE2E5622721E43C005D83CA /* deleteProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deleteProduct.swift; sourceTree = "<group>"; };
+		FAE2E5642721E632005D83CA /* deleteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deleteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +81,13 @@
 			isa = PBXGroup;
 			children = (
 				FA630B7727206C5100744115 /* AppDelegate.swift */,
-				C97D7C642723083400264A87 /* EditProduct.swift */,
 				FA630B7927206C5100744115 /* SceneDelegate.swift */,
 				FA630B8B27206C7000744115 /* Model.swift */,
+				FAE2E5622721E43C005D83CA /* deleteProduct.swift */,
+				FAE2E5642721E632005D83CA /* deleteCell.swift */,
+				FA271E332722EBCA00E964CF /* updatePage.swift */,
+				FA271E2D2722C7E700E964CF /* EditProduct.swift */,
+				FA271E312722E5F100E964CF /* updateCell.swift */,
 				FA001BEF2721400700779FF7 /* addNewProduct.swift */,
 				FA630B992720A1F700744115 /* purchaseVC.swift */,
 				FA630B95272092C900744115 /* Product Page */,
@@ -188,11 +200,15 @@
 			files = (
 				FA001BF02721400700779FF7 /* addNewProduct.swift in Sources */,
 				FA630B9027207E2B00744115 /* cartVC.swift in Sources */,
+				FA271E322722E5F100E964CF /* updateCell.swift in Sources */,
+				FAE2E5652721E632005D83CA /* deleteCell.swift in Sources */,
 				FA630B7C27206C5100744115 /* storeVC.swift in Sources */,
 				FA630B92272081D400744115 /* cartCell.swift in Sources */,
 				FA630B7827206C5100744115 /* AppDelegate.swift in Sources */,
-				C97D7C652723083400264A87 /* EditProduct.swift in Sources */,
+				FA271E342722EBCA00E964CF /* updatePage.swift in Sources */,
+				FA271E2E2722C7E700E964CF /* EditProduct.swift in Sources */,
 				FA630B982720930E00744115 /* productVC.swift in Sources */,
+				FAE2E5632721E43C005D83CA /* deleteProduct.swift in Sources */,
 				FA630B8E2720704100744115 /* productCell.swift in Sources */,
 				FA630B7A27206C5100744115 /* SceneDelegate.swift in Sources */,
 				FA630B9A2720A1F700744115 /* purchaseVC.swift in Sources */,

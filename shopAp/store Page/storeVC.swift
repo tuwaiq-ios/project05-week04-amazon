@@ -7,39 +7,29 @@
 
 import UIKit
 
-class storeVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UISearchBarDelegate,MyCustomCellDelegator
-{
-    func callSegueFromCell(prodIndex: IndexPath) {
-        performSegue(withIdentifier: "update_page", sender: prodIndex)
-    }
-  
+class storeVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UISearchBarDelegate {
+    
     @IBOutlet weak var searchBar: UISearchBar!
+    
     @IBOutlet weak var productsCV: UICollectionView!
     
     var searchProducts: Array<Product> = allProduct
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        productsCV.delegate = self
-        productsCV.dataSource = self
-        searchBar.delegate = self
-    }
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        searchProducts = allProduct
-        productsCV.reloadData()
-
-    }
-     
+  
+    
+    
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        
         if searchText.isEmpty {
             searchProducts = allProduct
+            
         } else {
+            
             searchProducts = allProduct.filter({ oneProduct in
                 return oneProduct.name.starts(with: searchText)
             })
         }
         productsCV.reloadData()
+        
     }
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         searchBar.resignFirstResponder()
@@ -53,11 +43,10 @@ class storeVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let productCell = collectionView.dequeueReusableCell(withReuseIdentifier: "productCell", for: indexPath) as! productCell
-    
-        productCell.setup(with: searchProducts[indexPath.item] , indexPath: indexPath)
-        productCell.delegate = self
-        return productCell
+        let product = searchProducts[indexPath.item]
+        productCell.setup(product: product)
         
+        return productCell
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
@@ -67,15 +56,9 @@ class storeVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.prepare(for: segue, sender: sender)
-        if segue.identifier == "update_page" {
-            let updatePage = segue.destination as! EditProduct
-            updatePage.indexPath = sender as? IndexPath
-        }
-        else {
         let productVC = segue.destination as! productVC
-        productVC.selectedProduct = sender as? Product
-            }
-        }
+        productVC.selectedProduct = sender as! Product
+    }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
@@ -83,14 +66,30 @@ class storeVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
       return CGSize(width: screenWidth/2, height: 321)
     }
 
-    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         return 0
     }
-    
-    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 0
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        productsCV.delegate = self
+        productsCV.dataSource = self
+        searchBar.delegate = self
+        
+        productsCV.reloadData()
+        // Do any additional setup after loading the view.
+    }
+    
+    
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        searchProducts = allProduct
+        productsCV.reloadData()
     }
     
 }

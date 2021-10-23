@@ -12,6 +12,8 @@ class cartCell: UITableViewCell{
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var summaryLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
+    
+    
     func setup(product: Product){
         cartImage.image = product.image
         nameLabel.text = product.name
