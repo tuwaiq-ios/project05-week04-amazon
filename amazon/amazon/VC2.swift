@@ -24,7 +24,7 @@ class VC2 :UIViewController, UITableViewDelegate, UITableViewDataSource {
         
          cell.product = product
          cell.productName.text = product?.name
-         cell.prodImage.image = UIImage (named: product!.image)
+         cell.prodImage.image =  product!.image
          cell.prodPrice.text = "\(product!.price)"
          
          

@@ -13,13 +13,14 @@ struct Brand {
     let name: String
     let type: String
     let logo: String
-    let prods: Array<Product>
+    var prods: Array<Product>
 }
 
 struct Product {
     let name: String
-    let image: String
+    let image: UIImage?
     let price: Double
+    let summary: String
 }
 //var searchedProducts: Array<Brand> = []
 var brandList: Array<Brand> = [
@@ -31,17 +32,22 @@ var brandList: Array<Brand> = [
         prods: [
             Product(
                 name: "Iphone 11 Pro",
-                image: "iphone11",
-                price: 3999.0
+                image: UIImage(named: "iphone11"),
+                price: 3999.0,
+                summary: ""
             ),
             Product(
                 name: "AirPods",
-                image: "air",
-                price: 666.5
+                image: UIImage(named:"air"),
+                price: 666.5,
+                summary: ""
+                
             ),Product(
                 name: "Apple Watch",
-                image: "applew",
-                price: 800.99
+                image: UIImage(named:"applew"),
+                price: 800.99,
+                summary: ""
+                
             )
             
         ]),
@@ -53,16 +59,20 @@ var brandList: Array<Brand> = [
         prods: [
             Product(
                 name:"Samsung Note20",
-                image: "note20",
-                price: 4999.9
+                image: UIImage(named:"note20"),
+                price: 4999.9,
+                summary: ""
             ),Product(
                 name:"Samsung Cleaner",
-                image: "samC",
-                price: 755.0
+                image: UIImage(named:"samC"),
+                price: 755.0,
+                summary: ""
             ),Product(
                 name:"Samsung TV 65inch",
-                image: "samTV",
-                price: 7900.0
+                image: UIImage(named:"samTV"),
+                price: 7900.0,
+                summary: ""
+                
             )
             
         ]
@@ -74,17 +84,23 @@ var brandList: Array<Brand> = [
         prods: [
             Product(
                 name: "LG AC",
-                image: "lg air",
-                price: 1800.0
+                image: UIImage(named:"lg air"),
+                price: 1800.0,
+                summary: ""
+                
             ), Product(
                 name: "LG TV 55inch",
-                image: "lg TV",
-                price: 5299.9
+                image: UIImage(named:"lg TV"),
+                price: 5299.9,
+                summary: ""
+
             ),
             Product(
                 name: "LG HandyPhone",
-                image: "lg h",
-                price: 1800.0
+                image: UIImage(named:"lg h"),
+                price: 1800.0,
+                summary: ""
+
             )
         ]
     )

@@ -19,7 +19,7 @@
 		5EEAC1AA271D486F00AB561C /* cell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEAC1A9271D486F00AB561C /* cell2.swift */; };
 		5EEAC1AC271D65EB00AB561C /* cartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEAC1AB271D65EB00AB561C /* cartVC.swift */; };
 		5EEAC1CE271F1AC700AB561C /* cell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEAC1CD271F1AC700AB561C /* cell3.swift */; };
-		5EEAC1F02720110B00AB561C /* ddd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEAC1EF2720110B00AB561C /* ddd.swift */; };
+		5EEAC1F02720110B00AB561C /* MVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEAC1EF2720110B00AB561C /* MVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 		5EEAC1A9271D486F00AB561C /* cell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cell2.swift; sourceTree = "<group>"; };
 		5EEAC1AB271D65EB00AB561C /* cartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartVC.swift; sourceTree = "<group>"; };
 		5EEAC1CD271F1AC700AB561C /* cell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cell3.swift; sourceTree = "<group>"; };
-		5EEAC1EF2720110B00AB561C /* ddd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ddd.swift; sourceTree = "<group>"; };
+		5EEAC1EF2720110B00AB561C /* MVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,6 @@
 				5EEAC198271D454900AB561C /* Assets.xcassets */,
 				5EEAC19A271D454900AB561C /* LaunchScreen.storyboard */,
 				5EEAC19D271D454900AB561C /* Info.plist */,
-				5EEAC195271D454800AB561C /* Main.storyboard */,
 				5EEAC1A3271D46AA00AB561C /* data.swift */,
 				5EEAC193271D454800AB561C /* VC1.swift */,
 				5EEAC1A5271D483F00AB561C /* cell1.swift */,
@@ -83,7 +82,8 @@
 				5EEAC1A9271D486F00AB561C /* cell2.swift */,
 				5EEAC1AB271D65EB00AB561C /* cartVC.swift */,
 				5EEAC1CD271F1AC700AB561C /* cell3.swift */,
-				5EEAC1EF2720110B00AB561C /* ddd.swift */,
+				5EEAC1EF2720110B00AB561C /* MVC.swift */,
+				5EEAC195271D454800AB561C /* Main.storyboard */,
 			);
 			path = amazon;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 				5EEAC1A6271D483F00AB561C /* cell1.swift in Sources */,
 				5EEAC194271D454800AB561C /* VC1.swift in Sources */,
 				5EEAC190271D454800AB561C /* AppDelegate.swift in Sources */,
-				5EEAC1F02720110B00AB561C /* ddd.swift in Sources */,
+				5EEAC1F02720110B00AB561C /* MVC.swift in Sources */,
 				5EEAC1A8271D486600AB561C /* VC2.swift in Sources */,
 				5EEAC192271D454800AB561C /* SceneDelegate.swift in Sources */,
 				5EEAC1A4271D46AA00AB561C /* data.swift in Sources */,

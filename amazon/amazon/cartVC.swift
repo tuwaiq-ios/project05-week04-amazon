@@ -28,7 +28,7 @@ class CartVC: UIViewController, UITableViewDelegate, UITableViewDataSource{
          )as! cell3
         
         cell.name4.text = pro.name
-        cell.image4.image = UIImage (named: pro.image)
+        cell.image4.image =  pro.image
         cell.price4.text = "\(pro.price)"
          return cell
         }
