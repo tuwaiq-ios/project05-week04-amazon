@@ -34,9 +34,7 @@ class editProduct:UIViewController {
         let updatedProduct = Product(
             title: editProductName.text ?? "",
             image: editproductimage.image,
-            
-           
-            price: 0 ,
+            price: Double(editProductPrice.text!)! ,
             
             description: editsummary.text ?? ""
         )
