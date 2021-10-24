@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC2EFA8927244B9800655CAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2EFA8827244B9800655CAA /* AppDelegate.swift */; };
+		FC2EFA8B27244B9800655CAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2EFA8A27244B9800655CAA /* SceneDelegate.swift */; };
+		FC2EFA8D27244B9800655CAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2EFA8C27244B9800655CAA /* ViewController.swift */; };
+		FC2EFA9027244B9800655CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2EFA8E27244B9800655CAA /* Main.storyboard */; };
+		FC2EFA9227244B9900655CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2EFA9127244B9900655CAA /* Assets.xcassets */; };
+		FC2EFA9527244B9900655CAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2EFA9327244B9900655CAA /* LaunchScreen.storyboard */; };
+		FC2EFA9D27244BBE00655CAA /* StoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2EFA9C27244BBE00655CAA /* StoreVC.swift */; };
+		FC2EFA9F27244BDE00655CAA /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2EFA9E27244BDE00655CAA /* ProductCell.swift */; };
+		FC2EFAA127244BF800655CAA /* ProductVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2EFAA027244BF800655CAA /* ProductVC2.swift */; };
+		FC2EFAA327244C1300655CAA /* CartVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2EFAA227244C1300655CAA /* CartVC3.swift */; };
+		FC2EFAA527244C2800655CAA /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2EFAA427244C2800655CAA /* CartCell.swift */; };
+		FC2EFAA727244CA400655CAA /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2EFAA627244CA400655CAA /* Data.swift */; };
+		FC2EFAAC272451E500655CAA /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2EFAAB272451E500655CAA /* Manager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC2EFA8527244B9800655CAA /* amazonApp project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "amazonApp project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2EFA8827244B9800655CAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC2EFA8A27244B9800655CAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC2EFA8C27244B9800655CAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC2EFA8F27244B9800655CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC2EFA9127244B9900655CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC2EFA9427244B9900655CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC2EFA9627244B9900655CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2EFA9C27244BBE00655CAA /* StoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreVC.swift; sourceTree = "<group>"; };
+		FC2EFA9E27244BDE00655CAA /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		FC2EFAA027244BF800655CAA /* ProductVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC2.swift; sourceTree = "<group>"; };
+		FC2EFAA227244C1300655CAA /* CartVC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC3.swift; sourceTree = "<group>"; };
+		FC2EFAA427244C2800655CAA /* CartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
+		FC2EFAA627244CA400655CAA /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		FC2EFAAB272451E500655CAA /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC2EFA8227244B9800655CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC2EFA7C27244B9800655CAA = {
+			isa = PBXGroup;
+			children = (
+				FC2EFA8727244B9800655CAA /* amazonApp project */,
+				FC2EFA8627244B9800655CAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC2EFA8627244B9800655CAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC2EFA8527244B9800655CAA /* amazonApp project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC2EFA8727244B9800655CAA /* amazonApp project */ = {
+			isa = PBXGroup;
+			children = (
+				FC2EFA8827244B9800655CAA /* AppDelegate.swift */,
+				FC2EFA8A27244B9800655CAA /* SceneDelegate.swift */,
+				FC2EFA8C27244B9800655CAA /* ViewController.swift */,
+				FC2EFA9627244B9900655CAA /* Info.plist */,
+				FC2EFA9327244B9900655CAA /* LaunchScreen.storyboard */,
+				FC2EFA8E27244B9800655CAA /* Main.storyboard */,
+				FC2EFA9127244B9900655CAA /* Assets.xcassets */,
+				FC2EFAA627244CA400655CAA /* Data.swift */,
+				FC2EFAA82724514100655CAA /* Section1 */,
+				FC2EFAA92724515600655CAA /* Section2 */,
+				FC2EFAAA2724519B00655CAA /* Section3 */,
+				FC2EFAAD2724524100655CAA /* Section4 */,
+			);
+			path = "amazonApp project";
+			sourceTree = "<group>";
+		};
+		FC2EFAA82724514100655CAA /* Section1 */ = {
+			isa = PBXGroup;
+			children = (
+				FC2EFA9C27244BBE00655CAA /* StoreVC.swift */,
+				FC2EFA9E27244BDE00655CAA /* ProductCell.swift */,
+			);
+			path = Section1;
+			sourceTree = "<group>";
+		};
+		FC2EFAA92724515600655CAA /* Section2 */ = {
+			isa = PBXGroup;
+			children = (
+				FC2EFAA227244C1300655CAA /* CartVC3.swift */,
+				FC2EFAA427244C2800655CAA /* CartCell.swift */,
+			);
+			path = Section2;
+			sourceTree = "<group>";
+		};
+		FC2EFAAA2724519B00655CAA /* Section3 */ = {
+			isa = PBXGroup;
+			children = (
+				FC2EFAA027244BF800655CAA /* ProductVC2.swift */,
+			);
+			path = Section3;
+			sourceTree = "<group>";
+		};
+		FC2EFAAD2724524100655CAA /* Section4 */ = {
+			isa = PBXGroup;
+			children = (
+				FC2EFAAB272451E500655CAA /* Manager.swift */,
+			);
+			path = Section4;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC2EFA8427244B9800655CAA /* amazonApp project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2EFA9927244B9900655CAA /* Build configuration list for PBXNativeTarget "amazonApp project" */;
+			buildPhases = (
+				FC2EFA8127244B9800655CAA /* Sources */,
+				FC2EFA8227244B9800655CAA /* Frameworks */,
+				FC2EFA8327244B9800655CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "amazonApp project";
+			productName = "amazonApp project";
+			productReference = FC2EFA8527244B9800655CAA /* amazonApp project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC2EFA7D27244B9800655CAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					FC2EFA8427244B9800655CAA = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = FC2EFA8027244B9800655CAA /* Build configuration list for PBXProject "amazonApp project" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC2EFA7C27244B9800655CAA;
+			productRefGroup = FC2EFA8627244B9800655CAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC2EFA8427244B9800655CAA /* amazonApp project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC2EFA8327244B9800655CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2EFA9527244B9900655CAA /* LaunchScreen.storyboard in Resources */,
+				FC2EFA9227244B9900655CAA /* Assets.xcassets in Resources */,
+				FC2EFA9027244B9800655CAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC2EFA8127244B9800655CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2EFA8D27244B9800655CAA /* ViewController.swift in Sources */,
+				FC2EFA8927244B9800655CAA /* AppDelegate.swift in Sources */,
+				FC2EFA9F27244BDE00655CAA /* ProductCell.swift in Sources */,
+				FC2EFAA527244C2800655CAA /* CartCell.swift in Sources */,
+				FC2EFAA127244BF800655CAA /* ProductVC2.swift in Sources */,
+				FC2EFAA327244C1300655CAA /* CartVC3.swift in Sources */,
+				FC2EFA9D27244BBE00655CAA /* StoreVC.swift in Sources */,
+				FC2EFAA727244CA400655CAA /* Data.swift in Sources */,
+				FC2EFA8B27244B9800655CAA /* SceneDelegate.swift in Sources */,
+				FC2EFAAC272451E500655CAA /* Manager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC2EFA8E27244B9800655CAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2EFA8F27244B9800655CAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC2EFA9327244B9900655CAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2EFA9427244B9900655CAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC2EFA9727244B9900655CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC2EFA9827244B9900655CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC2EFA9A27244B9900655CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47D3PLR2U9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "amazonApp project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmed.amazonApp-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC2EFA9B27244B9900655CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47D3PLR2U9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "amazonApp project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmed.amazonApp-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC2EFA8027244B9800655CAA /* Build configuration list for PBXProject "amazonApp project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2EFA9727244B9900655CAA /* Debug */,
+				FC2EFA9827244B9900655CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2EFA9927244B9900655CAA /* Build configuration list for PBXNativeTarget "amazonApp project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2EFA9A27244B9900655CAA /* Debug */,
+				FC2EFA9B27244B9900655CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC2EFA7D27244B9800655CAA /* Project object */;
+}
