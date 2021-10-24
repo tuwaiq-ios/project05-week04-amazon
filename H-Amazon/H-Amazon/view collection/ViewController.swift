@@ -15,6 +15,11 @@ let searchController = UISearchController(searchResultsController: nil)
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource,
 UICollectionViewDelegateFlowLayout, UISearchResultsUpdating, UISearchBarDelegate {
     
+    func callSegueFromCell(Productindexpath: IndexPath) {
+        performSegue(withIdentifier: "Update-Product", sender: Productindexpath)
+      }
+    
+    
     func updateSearchResults(for searchController: UISearchController) {
         let searchText = searchController.searchBar.text!
         if !searchText.isEmpty
@@ -44,6 +49,13 @@ UICollectionViewDelegateFlowLayout, UISearchResultsUpdating, UISearchBarDelegate
        }
    
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        configureSearchController()
+    
+        }
 
     @IBOutlet var collectionView: UICollectionView!
     
@@ -98,18 +110,24 @@ UICollectionViewDelegateFlowLayout, UISearchResultsUpdating, UISearchBarDelegate
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.prepare(for: segue, sender: sender)
+        if segue.identifier == "Update-Product" {
+            if let updatPage = segue.destination as? updata  {
+              if let index = sender as? IndexPath {
+                updatPage.indexpath = index
+              }
+             }
+           }else {
+           let vc2 = segue.destination as!Dis
+           vc2.PR = sender as! product?
+          }
         
-        let vc2 = segue.destination as! Dis
-        vc2.PR = sender as! product?
         
     }
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        collectionView.delegate = self
-        collectionView.dataSource = self
-        configureSearchController()
     
-        }
+
+
+
+
     
     private func configureSearchController( )
        {
@@ -125,5 +143,5 @@ UICollectionViewDelegateFlowLayout, UISearchResultsUpdating, UISearchBarDelegate
          searchController.searchBar.placeholder = "“search products by name”"
        }
     
-    
+
 }

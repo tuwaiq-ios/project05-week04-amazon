@@ -214,24 +214,35 @@
                                 <rect key="frame" x="118" y="640" width="145" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="updata">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.89290398359298706" green="0.63812762498855591" blue="0.92456585168838501" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
                                 <connections>
-                                    <action selector="buttUpdata:" destination="heX-1j-IGF" eventType="touchUpInside" id="x4j-2U-1qE"/>
+                                    <action selector="addbuttone:" destination="heX-1j-IGF" eventType="touchUpInside" id="wiM-m6-opE"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6QC-r1-5DY">
+                                <rect key="frame" x="74" y="126" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gLl-qh-wqI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ZbP-7K-XKR"/>
                     <connections>
                         <outlet property="descriptionUpdata" destination="czq-1e-1Tb" id="ZRy-Wc-pob"/>
+                        <outlet property="imageupdata" destination="6QC-r1-5DY" id="hFr-bw-nNy"/>
                         <outlet property="nameUpdata" destination="Tnk-TN-VMK" id="Xng-Lk-fIv"/>
                         <outlet property="priceUpdata" destination="xqH-om-wWR" id="WaA-Xp-bF7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d3K-qZ-Eu2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1117" y="1754"/>
+            <point key="canvasLocation" x="-1104.3478260869565" y="1118.9732142857142"/>
         </scene>
         <!--Shopping basket-->
         <scene sceneID="YVm-M1-6bp">
@@ -508,6 +519,17 @@
                                                     <buttonConfiguration key="configuration" style="plain" image="cart.badge.plus" catalog="system"/>
                                                     <connections>
                                                         <action selector="addtocell:" destination="1dN-4d-7Sn" eventType="touchUpInside" id="4Mf-no-c3h"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nay-nj-oPH">
+                                                    <rect key="frame" x="84" y="136" width="64" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="update">
+                                                        <fontDescription key="titleFontDescription" type="italicSystem" pointSize="11"/>
+                                                    </buttonConfiguration>
+                                                    <connections>
+                                                        <segue destination="heX-1j-IGF" kind="show" identifier="Update-Product" id="p60-ED-Iux"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
