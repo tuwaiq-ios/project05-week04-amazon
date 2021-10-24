@@ -14,11 +14,11 @@
             <objects>
                 <viewController id="2sM-Jp-9lc" customClass="ViewController" customModule="Grocery_App_Afnan_week4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1yz-GH-00B">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="CVcontroller" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4M2-c3-do4">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="A6q-4S-DdN">
                                     <size key="itemSize" width="184" height="174"/>
@@ -125,17 +125,17 @@
             <objects>
                 <viewController id="7PS-TO-Fyw" customClass="updateProducts" customModule="Grocery_App_Afnan_week4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="436-mx-FUQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ehY-Xt-Gne">
-                                <rect key="frame" x="76" y="225" width="263" height="166"/>
+                                <rect key="frame" x="76" y="137" width="263" height="166"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="166" id="ta7-8n-qPI"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="cNO-yp-iBQ">
-                                <rect key="frame" x="113" y="484" width="189.5" height="174"/>
+                                <rect key="frame" x="113" y="396" width="189.5" height="174"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nwe Product Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YjI-qH-uK0">
                                         <rect key="frame" x="0.0" y="0.0" width="189.5" height="34"/>
@@ -158,7 +158,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTv-kY-Sdm">
-                                <rect key="frame" x="76" y="672" width="263" height="40"/>
+                                <rect key="frame" x="76" y="667" width="263" height="40"/>
                                 <color key="backgroundColor" red="0.91297315530000001" green="1" blue="0.89399846009999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="8SI-22-aAd"/>
@@ -202,17 +202,17 @@
             <objects>
                 <viewController id="Msa-iZ-hKz" customClass="Dis" customModule="Grocery_App_Afnan_week4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ssA-rQ-507">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Od4-kt-esf">
-                                <rect key="frame" x="20" y="151" width="374" height="233"/>
+                                <rect key="frame" x="20" y="63" width="374" height="233"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="233" id="aKQ-YX-RwF"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discreption" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hpb-xm-AkI">
-                                <rect key="frame" x="20" y="525" width="374" height="74"/>
+                                <rect key="frame" x="20" y="437" width="374" height="74"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="74" id="cIs-78-7wC"/>
                                 </constraints>
@@ -221,7 +221,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VIc-Ut-OD3">
-                                <rect key="frame" x="114" y="415" width="186" height="67"/>
+                                <rect key="frame" x="114" y="327" width="186" height="67"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="67" id="Vg4-rn-VJC"/>
                                 </constraints>
@@ -230,7 +230,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WyB-Mx-uol">
-                                <rect key="frame" x="128" y="607" width="158" height="38.5"/>
+                                <rect key="frame" x="128" y="519" width="158" height="38.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -555,24 +555,27 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="fg5-vX-BaO" customClass="deleteCell" customModule="Grocery_App_Afnan_week4" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Delete-Products" id="fg5-vX-BaO" customClass="deleteCell" customModule="Grocery_App_Afnan_week4" customModuleProvider="target">
                                         <rect key="frame" x="104.5" y="0.0" width="205" height="188"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="r8q-3M-znT">
                                             <rect key="frame" x="0.0" y="0.0" width="205" height="188"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xjI-cx-sdd">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xjI-cx-sdd">
                                                     <rect key="frame" x="30" y="8" width="145" height="86"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbe-b5-ZVi">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbe-b5-ZVi">
                                                     <rect key="frame" x="30" y="119" width="42" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8gs-zL-Z4z">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8gs-zL-Z4z">
                                                     <rect key="frame" x="134" y="118" width="42" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -589,16 +592,6 @@
                                                     </connections>
                                                 </button>
                                             </subviews>
-                                            <constraints>
-                                                <constraint firstItem="xjI-cx-sdd" firstAttribute="height" secondItem="r8q-3M-znT" secondAttribute="height" multiplier="0.457447" id="2Bl-tZ-SXL"/>
-                                                <constraint firstItem="xjI-cx-sdd" firstAttribute="leading" secondItem="r8q-3M-znT" secondAttribute="leading" constant="30" id="47O-o7-xns"/>
-                                                <constraint firstItem="cbe-b5-ZVi" firstAttribute="leading" secondItem="r8q-3M-znT" secondAttribute="leading" constant="30" id="8yA-Je-CG8"/>
-                                                <constraint firstItem="8gs-zL-Z4z" firstAttribute="top" secondItem="xjI-cx-sdd" secondAttribute="bottom" constant="24" id="NPK-LG-tlk"/>
-                                                <constraint firstAttribute="trailing" secondItem="8gs-zL-Z4z" secondAttribute="trailing" constant="29" id="URQ-hN-cDg"/>
-                                                <constraint firstItem="cbe-b5-ZVi" firstAttribute="top" secondItem="xjI-cx-sdd" secondAttribute="bottom" constant="25" id="WWZ-3W-9yS"/>
-                                                <constraint firstAttribute="trailing" secondItem="xjI-cx-sdd" secondAttribute="trailing" constant="30" id="XTo-tW-Rru"/>
-                                                <constraint firstItem="xjI-cx-sdd" firstAttribute="top" secondItem="r8q-3M-znT" secondAttribute="top" constant="8" id="bEh-x9-TPC"/>
-                                            </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="205" height="188"/>
                                         <connections>
@@ -792,7 +785,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Delete Products"/>
                                 <connections>
-                                    <segue destination="zeE-5y-GcX" kind="show" identifier="Delete-Products" id="Mkl-hs-frI"/>
+                                    <segue destination="zeE-5y-GcX" kind="show" identifier="" id="Mkl-hs-frI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -817,6 +810,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="My account" image="person.circle" catalog="system" id="7MW-Px-OCU"/>
                     <connections>
+                        <outlet property="DeleteButton1" destination="FrR-bo-nak" id="ruf-Zd-saE"/>
                         <outlet property="tf1" destination="weY-Zc-fqV" id="0L5-Tx-7BN"/>
                         <outlet property="tf2" destination="PPd-Ep-Y3p" id="oJZ-3X-ibA"/>
                         <outlet property="tf3" destination="iZS-UA-yqn" id="DZW-SI-M6Q"/>
@@ -848,7 +842,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Quy-Qh-1Ga"/>
+        <segue reference="5wQ-RC-Msv"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.clockwise" catalog="system" width="115" height="128"/>

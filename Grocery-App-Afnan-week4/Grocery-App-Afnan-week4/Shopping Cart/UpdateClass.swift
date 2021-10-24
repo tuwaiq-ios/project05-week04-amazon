@@ -10,7 +10,7 @@ import UIKit
 
 class updateProducts: UIViewController {
     
-    var indexpath:  IndexPath!
+    var indexpath:IndexPath?
     
 
     @IBOutlet weak var newPhoto: UIImageView!
@@ -23,12 +23,13 @@ class updateProducts: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        let UpdateProduct = productslist[indexpath.row]
+        guard let indexpath = indexpath else {return}
+      let product = productslist[indexpath.row]
        
-        newPhoto.image = UpdateProduct.photo
-        NewName.text = UpdateProduct.name
-        NewPrice.text = "\(String(describing: UpdateProduct.price))"
-        NewDescription.text = UpdateProduct.description
+        newPhoto.image =  product.photo
+        NewName.text =  product.name
+        NewPrice.text = "\(String(describing: product.price))"
+        NewDescription.text =  product.description
     }
     
 
@@ -39,13 +40,13 @@ class updateProducts: UIViewController {
             photo: newPhoto.image,
             name: NewName.text  ?? " ",
             price: Double( NewPrice.text ?? " ") ?? 0,
-            description: NewDescription.text ?? " "
-        )
-        productslist[indexpath.row] = UpdatedProduct
+            description: NewDescription.text ?? " ")
+        productslist[indexpath?.row ?? 0 ] = UpdatedProduct
+        
     }
     
     
-    
+   
     
     
 }

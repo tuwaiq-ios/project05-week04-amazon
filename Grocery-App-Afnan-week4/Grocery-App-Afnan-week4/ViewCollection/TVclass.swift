@@ -33,7 +33,23 @@ class Dis: UIViewController {
 
     }
     
-   
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        
+        if segue.identifier == "Update-Product" {
+            if let UpdatedProduct = segue.destination as? updateProducts {
+                if let index = sender as? IndexPath {
+                    UpdatedProduct.indexpath = index
+                }
+            }
+        } else {
+            let vc2 = segue.destination as! Dis
+            vc2.PROfromdis = sender as? products
+        }
+    }
+        
+     
     
     
 }

@@ -116,9 +116,14 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
 
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.prepare(for: segue, sender: sender)
+      
       if segue.identifier == "Update-Product" {
-          let updatPage = segue.destination as! updateProducts
-          updatPage.indexpath = sender as? IndexPath
+        if  let updatPage = segue.destination as? updateProducts {
+            if let index = sender as? IndexPath {
+                updatPage.indexpath = index
+            }
+          }
+             
       }else {
       
       let vc2 = segue.destination as!Dis

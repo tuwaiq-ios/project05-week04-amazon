@@ -31,7 +31,7 @@ class deleteCell: UICollectionViewCell {
     
     @IBAction func DeleteButton(_ sender: Any) {
         
-        delegate?.deleteData(indx: indexPath?.row ?? indexPath?.row as! Int )
+        delegate?.deleteData(indx: (indexPath?.row)!)
     }
     
     func setup(product: products){

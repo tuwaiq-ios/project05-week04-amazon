@@ -14,7 +14,7 @@ class deleteProduct: UIViewController, UICollectionViewDelegate, UICollectionVie
     @IBOutlet weak var collection: UICollectionViewFlowLayout!
     
     func deleteData(indx: Int) {
-        _ = productslist.remove(at: indx)
+        let deletproduct = productslist.remove(at: indx)
         
         deleteCV.reloadData()
     }
@@ -30,7 +30,9 @@ class deleteProduct: UIViewController, UICollectionViewDelegate, UICollectionVie
   productCell.indexPath = indexPath
   productCell.delegate = self
      
-     _ = productslist[indexPath.item]
+     let products = productslist[indexPath.item]
+     
+     productCell.setup(product: products)
      
         return productCell
  }

@@ -16,6 +16,7 @@ class Account: UIViewController {
     
     @IBOutlet weak var tf3: UITextField!
     
+    @IBOutlet weak var DeleteButton1: UIButton!
     
     @IBAction func Registerbutton(_ sender: Any) {
         
