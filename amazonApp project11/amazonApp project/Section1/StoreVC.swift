@@ -62,7 +62,10 @@ class  StoreVC : UIViewController , UICollectionViewDelegate, UICollectionViewDa
         performSegue(withIdentifier: "show_product", sender: product)
     }
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let productVC = segue.destination as! ProductVC
+        productVC.selectedProducts = sender as? Product
+      }
 
     //
   

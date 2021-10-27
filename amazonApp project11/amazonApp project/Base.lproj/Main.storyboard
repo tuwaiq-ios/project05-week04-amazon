@@ -167,6 +167,10 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="k6K-zF-TMh">
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <imageView key="tableFooterView" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="amazon" id="yku-Qu-sfd">
+                                    <rect key="frame" x="0.0" y="208" width="414" height="128"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CartCell" rowHeight="141" id="TRq-9h-4Ov" customClass="CartCell" customModule="amazonApp_project" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="141"/>
@@ -278,12 +282,21 @@
                                     <constraint firstItem="8Qh-tv-cH8" firstAttribute="top" secondItem="Vtg-NS-m4b" secondAttribute="top" constant="209" id="E3R-b2-IDp"/>
                                 </constraints>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="amazon" translatesAutoresizingMaskIntoConstraints="NO" id="leJ-gb-hEm">
+                                <rect key="frame" x="87" y="532" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="d8C-2C-wJS"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vBB-3o-V2K"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="leJ-gb-hEm" firstAttribute="top" secondItem="Vtg-NS-m4b" secondAttribute="bottom" constant="93" id="63A-mD-kaz"/>
+                            <constraint firstItem="leJ-gb-hEm" firstAttribute="leading" secondItem="vBB-3o-V2K" secondAttribute="leading" constant="87" id="GSQ-Kw-und"/>
                             <constraint firstItem="Vtg-NS-m4b" firstAttribute="top" secondItem="x16-PV-mMG" secondAttribute="top" constant="100" id="TrY-aq-s7b"/>
                             <constraint firstItem="Vtg-NS-m4b" firstAttribute="leading" secondItem="vBB-3o-V2K" secondAttribute="leading" constant="24" id="UOE-1Y-dLk"/>
+                            <constraint firstItem="leJ-gb-hEm" firstAttribute="centerX" secondItem="Vtg-NS-m4b" secondAttribute="centerX" id="ZLi-NZ-hkD"/>
                             <constraint firstItem="vBB-3o-V2K" firstAttribute="trailing" secondItem="Vtg-NS-m4b" secondAttribute="trailing" constant="24" id="m2z-PM-muu"/>
                         </constraints>
                     </view>
