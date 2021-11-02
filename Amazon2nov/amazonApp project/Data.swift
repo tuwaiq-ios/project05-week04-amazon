@@ -11,7 +11,7 @@ import UIKit
 struct Product {
     
     let name : String
-    let image : String
+    let image : UIImage?
     let summary: String
     let price: String
 }
@@ -26,23 +26,23 @@ var purchasedProducts : Array<Product> = []
 var allProducts: Array<Product> = [
     
     Product(name: "laptop",
-            image: "laptop",
+            image: UIImage(named: "laptop"),
             summary: "this laptop new and 2022",
             price: "5999SR"),
     Product(name: "chair",
-            image: "chair",
+            image: UIImage(named: "chair"),
             summary: "this chair new and 2022",
             price: "799SR"),
     Product(name: "book",
-            image: "book",
+            image: UIImage(named: "book"),
             summary: "this book new and 2022",
             price: "59SR"),
     Product(name: "applewatch",
-            image: "applewatch",
+            image: UIImage(named: "applewatch"),
             summary: "this applewach new and 2022",
             price: "1699SR"),
     Product(name: "xbox",
-            image: "xbox",
+            image: UIImage(named: "xbox"),
             summary: "this xbox new and 2022",
             price: "1200SR")
 ]
