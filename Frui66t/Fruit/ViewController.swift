@@ -75,7 +75,7 @@ class ViewController: UIViewController,UICollectionViewDelegate, UICollectionVie
     
 
 struct Fruit {
-    var image : UIImage
+    var image : UIImage!
     var name : String
 }
 
@@ -84,8 +84,3 @@ var fr = [Fruit(image: UIImage(named: "موز66")!, name: "موز66"),
           Fruit(image: UIImage(named: "فراوله66")!, name :"فراوله66"),
           Fruit(image: UIImage(named: "بطيخ66")!, name: "66بطيخ")
           ]
-
-
-    
-
-

@@ -36,7 +36,9 @@ class manager: UIViewController,UITextFieldDelegate,UIImagePickerControllerDeleg
         picker.delegate = self
         present(picker,animated: true)
         
-        pr.append(product(image: imaget.image, price: Double(pricet.text ?? "" ) ?? 0, summry: namet.text!))
+         fr.append(Fruit(image: imaget.image, name: namet.text!))
+        
     }
 }
+
 
