@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8658742327214C9000894259 /* Manger VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658742227214C9000894259 /* Manger VC.swift */; };
+		865874252721A5E100894259 /* updata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865874242721A5E100894259 /* updata.swift */; };
+		865B25F3271D7FBD00605EB7 /* acount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B25F2271D7FBD00605EB7 /* acount.swift */; };
+		865BFCC6271EDBCC00AD4AF5 /* CardTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865BFCC5271EDBCC00AD4AF5 /* CardTV.swift */; };
+		865BFCCA271EDDEF00AD4AF5 /* cardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865BFCC9271EDDEF00AD4AF5 /* cardCell.swift */; };
+		865C42A9271E135300A436C8 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865C42A8271E135300A436C8 /* Data.swift */; };
+		865C42AB271E186100A436C8 /* TVclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865C42AA271E186100A436C8 /* TVclass.swift */; };
+		86805083271C7EA7002FB6C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86805082271C7EA7002FB6C1 /* AppDelegate.swift */; };
+		86805085271C7EA7002FB6C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86805084271C7EA7002FB6C1 /* SceneDelegate.swift */; };
+		86805087271C7EA7002FB6C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86805086271C7EA7002FB6C1 /* ViewController.swift */; };
+		8680508A271C7EA7002FB6C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86805088271C7EA7002FB6C1 /* Main.storyboard */; };
+		8680508C271C7EA8002FB6C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8680508B271C7EA8002FB6C1 /* Assets.xcassets */; };
+		8680508F271C7EA8002FB6C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8680508D271C7EA8002FB6C1 /* LaunchScreen.storyboard */; };
+		86805097271C9DF1002FB6C1 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86805096271C9DF1002FB6C1 /* Cell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8658742227214C9000894259 /* Manger VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Manger VC.swift"; sourceTree = "<group>"; };
+		865874242721A5E100894259 /* updata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updata.swift; sourceTree = "<group>"; };
+		865B25F2271D7FBD00605EB7 /* acount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acount.swift; sourceTree = "<group>"; };
+		865BFCC5271EDBCC00AD4AF5 /* CardTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTV.swift; sourceTree = "<group>"; };
+		865BFCC9271EDDEF00AD4AF5 /* cardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardCell.swift; sourceTree = "<group>"; };
+		865C42A8271E135300A436C8 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		865C42AA271E186100A436C8 /* TVclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVclass.swift; sourceTree = "<group>"; };
+		8680507F271C7EA7002FB6C1 /* H-Amazon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H-Amazon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86805082271C7EA7002FB6C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86805084271C7EA7002FB6C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		86805086271C7EA7002FB6C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86805089271C7EA7002FB6C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8680508B271C7EA8002FB6C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8680508E271C7EA8002FB6C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86805090271C7EA8002FB6C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86805096271C9DF1002FB6C1 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8680507C271C7EA7002FB6C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		865BFCC7271EDC5C00AD4AF5 /* view collection */ = {
+			isa = PBXGroup;
+			children = (
+				86805086271C7EA7002FB6C1 /* ViewController.swift */,
+				86805096271C9DF1002FB6C1 /* Cell.swift */,
+				865C42AA271E186100A436C8 /* TVclass.swift */,
+			);
+			path = "view collection";
+			sourceTree = "<group>";
+		};
+		865BFCC8271EDCC400AD4AF5 /* shopping card */ = {
+			isa = PBXGroup;
+			children = (
+				865BFCC5271EDBCC00AD4AF5 /* CardTV.swift */,
+				865BFCC9271EDDEF00AD4AF5 /* cardCell.swift */,
+			);
+			path = "shopping card";
+			sourceTree = "<group>";
+		};
+		86805076271C7EA6002FB6C1 = {
+			isa = PBXGroup;
+			children = (
+				86805081271C7EA7002FB6C1 /* H-Amazon */,
+				86805080271C7EA7002FB6C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86805080271C7EA7002FB6C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8680507F271C7EA7002FB6C1 /* H-Amazon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86805081271C7EA7002FB6C1 /* H-Amazon */ = {
+			isa = PBXGroup;
+			children = (
+				865BFCC8271EDCC400AD4AF5 /* shopping card */,
+				865BFCC7271EDC5C00AD4AF5 /* view collection */,
+				86805084271C7EA7002FB6C1 /* SceneDelegate.swift */,
+				86805088271C7EA7002FB6C1 /* Main.storyboard */,
+				8680508B271C7EA8002FB6C1 /* Assets.xcassets */,
+				8680508D271C7EA8002FB6C1 /* LaunchScreen.storyboard */,
+				86805090271C7EA8002FB6C1 /* Info.plist */,
+				865C42A8271E135300A436C8 /* Data.swift */,
+				865B25F2271D7FBD00605EB7 /* acount.swift */,
+				86805082271C7EA7002FB6C1 /* AppDelegate.swift */,
+				8658742227214C9000894259 /* Manger VC.swift */,
+				865874242721A5E100894259 /* updata.swift */,
+			);
+			path = "H-Amazon";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8680507E271C7EA7002FB6C1 /* H-Amazon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86805093271C7EA8002FB6C1 /* Build configuration list for PBXNativeTarget "H-Amazon" */;
+			buildPhases = (
+				8680507B271C7EA7002FB6C1 /* Sources */,
+				8680507C271C7EA7002FB6C1 /* Frameworks */,
+				8680507D271C7EA7002FB6C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "H-Amazon";
+			productName = "H-Amazon";
+			productReference = 8680507F271C7EA7002FB6C1 /* H-Amazon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86805077271C7EA6002FB6C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					8680507E271C7EA7002FB6C1 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 8680507A271C7EA7002FB6C1 /* Build configuration list for PBXProject "H-Amazon" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86805076271C7EA6002FB6C1;
+			productRefGroup = 86805080271C7EA7002FB6C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8680507E271C7EA7002FB6C1 /* H-Amazon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8680507D271C7EA7002FB6C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8680508F271C7EA8002FB6C1 /* LaunchScreen.storyboard in Resources */,
+				8680508C271C7EA8002FB6C1 /* Assets.xcassets in Resources */,
+				8680508A271C7EA7002FB6C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8680507B271C7EA7002FB6C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86805087271C7EA7002FB6C1 /* ViewController.swift in Sources */,
+				865C42A9271E135300A436C8 /* Data.swift in Sources */,
+				865C42AB271E186100A436C8 /* TVclass.swift in Sources */,
+				865BFCC6271EDBCC00AD4AF5 /* CardTV.swift in Sources */,
+				86805097271C9DF1002FB6C1 /* Cell.swift in Sources */,
+				865B25F3271D7FBD00605EB7 /* acount.swift in Sources */,
+				865874252721A5E100894259 /* updata.swift in Sources */,
+				8658742327214C9000894259 /* Manger VC.swift in Sources */,
+				86805083271C7EA7002FB6C1 /* AppDelegate.swift in Sources */,
+				865BFCCA271EDDEF00AD4AF5 /* cardCell.swift in Sources */,
+				86805085271C7EA7002FB6C1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86805088271C7EA7002FB6C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86805089271C7EA7002FB6C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8680508D271C7EA8002FB6C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8680508E271C7EA8002FB6C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86805091271C7EA8002FB6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86805092271C7EA8002FB6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86805094271C7EA8002FB6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 822RG578M9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "H-Amazon/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanan.H-Amazon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86805095271C7EA8002FB6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 822RG578M9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "H-Amazon/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanan.H-Amazon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8680507A271C7EA7002FB6C1 /* Build configuration list for PBXProject "H-Amazon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86805091271C7EA8002FB6C1 /* Debug */,
+				86805092271C7EA8002FB6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86805093271C7EA8002FB6C1 /* Build configuration list for PBXNativeTarget "H-Amazon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86805094271C7EA8002FB6C1 /* Debug */,
+				86805095271C7EA8002FB6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86805077271C7EA6002FB6C1 /* Project object */;
+}
